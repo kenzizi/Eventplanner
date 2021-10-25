@@ -7,7 +7,7 @@ class EventCard extends Component {
   render() {
     const { tab, user } = this.props;
     let bg = tab.imgPath;
-   // console.log('izebi',tab.avatar)
+ 
     var sectionStyle = {
       backgroundImage: `url(${bg})`
     };
